@@ -46,3 +46,10 @@ bash 'install dependecies for app' do
   pip3 install configmanager
   EOH
 end
+
+directory '/home/vagrant/Downloads/' do
+  owner 'root'
+  group 'root'
+  mode '0777'
+  action :create
+end
