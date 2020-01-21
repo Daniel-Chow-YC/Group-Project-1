@@ -1,9 +1,9 @@
-name 'Project_1'
+name 'dev_env'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
-description 'Installs/Configures Project_1'
-long_description 'Installs/Configures Project_1'
+description 'Installs/Configures dev_env'
+long_description 'Installs/Configures dev_env'
 version '0.1.0'
 chef_version '>= 14.0'
 
