@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     chef.arguments = "--chef-license accept"
   end
 
-  config.vm.synced_folder "./It_Jobs_Watch_Data_Package-master", "/home/ubuntu/code"
+  config.vm.synced_folder "./It_Jobs_Watch_Data_Package-master", "/home/vagrant/It_Jobs_Watch_Data_Package-master"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
