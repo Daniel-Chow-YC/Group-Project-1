@@ -51,3 +51,14 @@ Python cookbook stored in a github repo ( separate ) with Jenkins pipeline.
 	- Forked ItJobsWatch application repo with Vagrantfile, Berksfile, packer.json and ability to simply Vagrant up and run in development.
 	- Jenkins Job that runs test suite on pushes to master branch of forked application repo.
 	- Separate Jenkins job that buils an application AMI using packer.json when tests pass successfully.
+
+
+//////////////////////////////////////////////////////
+
+# For the Dev Environment
+- Simply run vagrant up
+- Vagrant ssh
+- cd It_Jobs_Watch_Data_Package-master
+- Run `python3 main.py`
+- or
+- Run `python3 -m pytest tests/`
