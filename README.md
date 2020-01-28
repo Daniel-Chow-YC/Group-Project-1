@@ -57,8 +57,8 @@ Python cookbook stored in a github repo ( separate ) with Jenkins pipeline.
 
 # For the Dev Environment
 - Simply run vagrant up
-- Vagrant ssh
-- cd It_Jobs_Watch_Data_Package-master
-- Run `python3 main.py`
+- Vagrant ssh to get into the VM
+- cd to It_Jobs_Watch_Data_Package-master
+- Run `python3 main.py` to run the app
 - or
-- Run `python3 -m pytest tests/`
+- Run `python3 -m pytest tests/` to run the tests for the app
